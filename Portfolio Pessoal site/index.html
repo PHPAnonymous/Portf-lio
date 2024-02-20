@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Portfólio</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section id="sobre-mim" class="sobre-mim">
+            <h1>Olá, eu sou o Lucas Martini</h1>
+            <p>Sou um entusiasta de tecnologia com um foco apaixonado em sistemas embarcados. Atualmente, estou cursando Sistemas Embarcados na Fatec Jundiaí – Deputado Ary Fossen, onde estou aprimorando minhas habilidades e conhecimentos nesta área fascinante.</p>
+            <p>Minha jornada na tecnologia começou quando concluí o Curso Técnico de Informática na ETEC Vasco Antônio Venchiarutti em 2018, onde adquiri uma base sólida em programação e informática. Tenho conhecimentos em várias linguagens de programação, incluindo Python, C++, Javascript, HTML, CSS e MYSQL. Além disso, minhas habilidades se estendem a redes de computadores, sistemas supervisórios e metodologias ágeis.</p>
+            <p>Durante meu estágio na Fatec Jundiaí, tive a oportunidade de aplicar meus conhecimentos em um ambiente prático, consolidando minhas habilidades e adquirindo valiosa experiência na área de TI.</p>
+            <p>Estou entusiasmado em compartilhar meu portfólio de projetos e trabalhos aqui, e estou ansioso para contribuir com soluções inovadoras para desafios no mundo da tecnologia. Se você é uma empresa ou microempreendimento em busca de um programador freelancer versátil e apaixonado, fique à vontade para entrar em contato. Vamos trabalhar juntos para tornar suas ideias realidade.</p>
+        </section>
+    </header>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfólio</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-between">
+                        <div class="w-50 pr-3">
+                            <h5 class="text-center">Maquete de Casa Automatizada (TCC)</h5>
+                            <p>Uma maquete de casa inteligente que demonstra automação residencial, controlada via ESP32 e Arduino. Este projeto foi meu Trabalho de Conclusão de Curso (TCC) e destaca meu conhecimento em sistemas embarcados.</p>
+                            <a href="link-para-detalhes-projeto1.html" class="btn btn-primary">Exemplo</a>
+                        </div>
+                        <div class="w-50">
+                            <img src=".\imgs\maqaut.jpeg" class="d-block mx-auto" alt="Maquete de Casa Automatizada (TCC)" style="height: 300px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-between">
+                        <div class="w-50 pr-3">
+                            <h5 class="text-center">Esteira de Produção Automatizada</h5>
+                            <p>Uma esteira de produção automatizada implementada com ESP32 e Arduino para otimizar processos industriais. Este projeto demonstra minha experiência em automação e controle de processos.</p>
+                            <a href="link-para-detalhes-projeto2.html" class="btn btn-primary">Exemplo</a>
+                        </div>
+                        <div class="w-50">
+                            <img src=".\imgs\estaut.jpg" class="d-block mx-auto" alt="Esteira de Produção Automatizada" style="height: 300px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+        
+    
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>E-mail: <span id="email">lleocasmartini@gmail.com</span> <button id="copy-email-button"><i class="far fa-copy"></i></button></p>
+        <p>Redes Sociais:
+            <a href="#" id="instagram-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" id="github-link"><i class="fab fa-github"></i></a>
+            <a href="#" id="linkedin-link"><i class="fab fa-linkedin"></i></a>
+        </p>
+    </section>
+</body>
+</html>

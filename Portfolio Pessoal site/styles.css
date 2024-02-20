@@ -1,0 +1,100 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #2e2e2e; /* Cor de fundo do site */
+    color: #000000; /* Cor do texto padrão */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    text-align: center;
+    padding: 0px;
+}
+
+/* Estilos para todas as seções */
+section {
+    text-align: justify;
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #fffefe; /* Cor de fundo das seções */
+    color: #000000;
+}
+
+/* Estilos para parágrafos dentro das seções */
+section p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para os projetos na seção "Portfólio" */
+.project {
+    margin: 20px 0;
+    padding: 0px;
+    border: 1px solid #ccc;
+    background-color: #ffffff; /* Cor de fundo das seções de projeto */
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #0070c0;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: #0070c0;
+}
+
+/* Estilos para a navbar */
+nav {
+    background-color: #303030;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.navbar a:hover {
+    color: #0093b8; /* Cor ao passar o mouse */
+    transform: scale(1.6); /* Efeito de escala ao passar o mouse */
+}
+
+/* Estilos para o ícone de cópia */
+#copy-email-button {
+    background-color: #0070c0; /* Cor de fundo do botão */
+    color: #fff; /* Cor do ícone */
+    border: none;
+    border-radius: 5px;
+    padding: 0% 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copy-email-button:hover {
+    background-color: #0052a6; /* Cor de fundo do botão no hover */
+}
+.sobre-mim h1 {
+    letter-spacing: -3px; /* Ajuste o valor conforme desejado */
+}
